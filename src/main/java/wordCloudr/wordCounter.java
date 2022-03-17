@@ -45,6 +45,10 @@ public class wordCounter {
         return inputString;
     }
 
+    public void countUserFrequency(){
+
+    }
+
 
 
    public Map<String,Integer> countWords(String s){
@@ -67,7 +71,6 @@ public class wordCounter {
         }*/
         return wordMap;
     }
-
 
 
     public void isCaseSentive(boolean b){
