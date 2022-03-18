@@ -18,6 +18,10 @@ public class wordCounter {
     boolean caseSentive = false;
     String inputString;
 
+    /**
+     * method to set the input string.
+     * @param s input String
+     */
     public void setInput(String s){
         if(!caseSentive)
             s = s.toLowerCase();
@@ -25,6 +29,17 @@ public class wordCounter {
         inputString=s;
     }
 
+    /**
+     * method used to filter out specified strings from the input string.
+     * can be used to remove multiple words. Examples on how to specify words to be removed:
+     *
+     * removing single word: "-the"
+     *  removes all instances of the word "the"
+     * removing multiple words: "-the -is -java doc -a"
+     *  removes all instances of the words "the", "is", "java doc", and "a"
+     *
+     * @param remove strings to remove
+     */
     public void filterOut(String remove){
         //remove = remove.replaceAll("\\s","");
         if(!caseSentive)
@@ -48,6 +63,8 @@ public class wordCounter {
     public void countUserFrequency(){
 
     }
+
+
 
 
 
