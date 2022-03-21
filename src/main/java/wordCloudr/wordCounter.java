@@ -56,6 +56,10 @@ public class wordCounter {
         }
     }
 
+    /**
+     * method used for getting the input string.
+     * @return input string
+     */
     public String getInput(){
         return inputString;
     }
@@ -65,9 +69,11 @@ public class wordCounter {
     }
 
 
-
-
-
+    /**
+     *
+     * @param s string whose words will be tallied.
+     * @return a Map<String,Integer> the String is the counted word, and the integer is the tally of the word
+     */
    public Map<String,Integer> countWords(String s){
         //System.out.println("Input:"+s);
         //System.out.println();
