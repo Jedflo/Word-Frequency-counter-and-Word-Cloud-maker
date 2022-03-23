@@ -95,7 +95,10 @@ public class wordCounter {
         return wordMap;
     }
 
-
+    /**
+     * method used to set case sensitivity of tallying.
+     * @param b case sensitivity true or false
+     */
     public void isCaseSentive(boolean b){
        caseSentive = b;
     }
