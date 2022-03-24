@@ -105,7 +105,7 @@ public class wordCounter {
 
     /**
      * method used to create word cloud.
-     * Tally's the strings set by seInput() and creates a word cloud based on word frequency.
+     * Tally's the strings set by seInput() and creates a word cloud based on word frequency
      */
     public void createWordCloud(){
         List<WordFrequency> wordFrequencies = new LinkedList<>();
